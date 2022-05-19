@@ -11,6 +11,14 @@ html, body{
   margin-top: 40px;
 }
 
+h1{
+  color: #1b1b32;
+  font-size: 25px;
+  font-family: Roboto,sans-serif;
+  text-align: center;
+  margin: 20px 0;
+}
+
 .aplicacion-tareas{
   display: flex;
   flex-wrap: wrap;

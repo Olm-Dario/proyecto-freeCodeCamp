@@ -12,9 +12,22 @@
   cursor: pointer;
 }
 
-.tarea-contenedor .completada{
+.tarea-contenedor.completada{
   background-color: #5a01a7;
   text-decoration: line-through;
+}
+
+/* Colores */
+.tarea-contenedor:nth-child(3n +1){
+  background-color: #1b1b32;
+}
+
+.tarea-contenedor:nth-child(3n +2){
+  background-color: #2a2a40;
+}
+
+.tarea-contenedor:nth-child(3n +3){
+  background-color: #3b3b4f;
 }
 
 .tarea-texto{
@@ -24,10 +37,6 @@
   display: flex;
   align-items: center;
   overflow-wrap: anywhere;
-}
-
-.tarea-contenedor-iconos{
-
 }
 
 .tarea-icono{
